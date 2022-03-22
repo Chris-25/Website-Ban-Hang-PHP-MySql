@@ -1,0 +1,173 @@
+body{
+	margin:0;
+	padding: 0; 
+}
+.wrapper{
+	border:1px solid #000;
+	height: auto;
+	width: 90%;
+	margin:0 auto;
+}
+.wrapper_chitiet{
+	border:1px solid #ffffff;
+	height: auto;
+	width: 90%;
+	margin:0 auto;
+}
+.hinhanh_sanpham{
+	
+	float: left;
+	width: 30%;
+
+	
+}
+.chitiet_sanpham{
+	float: left;
+	width: 49%;
+	margin: 0 10px;
+}
+input.themgiohang{
+	border: none;
+	background: #ff3300;
+	color: #fff;
+	padding: 12px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.header{
+	background-image: url("../images/banner.jpg"); 
+	background-repeat: no-repeat;
+	border:1px solid #ff80ff;
+	height: 130px;
+	width: 100%;
+	
+}
+.menu{
+	border:1px solid #1aff8c
+	height: 110px;
+	width: 100%;
+	background: #a6a6a6;
+}
+ul.list_menu{
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	border: 1px solid #;
+	list-style: none;
+	margin: 0 auto;
+	
+
+}
+ul.list_menu li a {
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+}
+ul.list_menu li:hover {
+	background: burlywood;
+}
+
+ul.list_menu li {
+	
+	margin: 5px;
+	padding: 5px;
+
+}
+
+#main{
+	border:1px solid #00ff80;
+	height: auto;
+	width: 100%;
+}
+
+.sidebar{
+	border:1px solid #000066;
+	height: 390px;
+	width: 20%;
+	margin-top: 5px;
+	margin-left: 5px; 
+	float: left;
+}
+ul.list_sidebar {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	border: 1px solid #;
+	list-style: none;	
+
+}
+ul.list_sidebar li a {
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+}
+ul.list_sidebar li:hover {
+	background: burlywood;
+}
+
+ul.list_sidebar li {
+	
+	margin: 7px;
+	padding: 5px;
+
+}
+
+.maincontent{
+	
+	height: auto;
+	width: 79%;
+	margin-top: 5px;
+	margin-left: 4px;
+	float: right; 
+}
+ul.product_list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+	
+}
+ul.product_list li img{
+	height: 170px;
+
+}
+ul.product_list li{
+	width: 20%;
+	border: 1px solid #ddd;
+	margin: 5px;
+	float: left;
+	
+}
+ul.product_list li a{
+	text-decoration: none;
+}
+ul.product_list li img {
+	width: 100%;
+}
+p.title_product {
+	text-align: center;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+}
+p.price_product {
+	text-align: center;
+}
+element.style {
+    text-align: center;
+}
+.footer{
+	position: sticky;
+	border:1px solid #ff1a8c;
+	height: 150px;
+	width: 100%;
+	background: #f2f2f2;
+	padding: 20px;
+}
+p.footer_copyright {
+	text-align: center;
+	color: #000000;
+}
+.clear{
+	clear: both;
+}
